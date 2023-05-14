@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Emprendimiento Marcia Go</title>
         <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet" href="./Bootstrap/bootstrap-5/dist/css/bootstrap-grid.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     </head>
     <br>
     <body class="body">
@@ -11,88 +13,92 @@
             <nav class="menu">
             <img src="./Imagenes/MG Logo.png" width="200px" height="200px">
                 <ul class="menu_elementos">
-                    <li style="color: darkmagenta;"><a href="./contacto.html">CONTACTO</a></li>
-                    <li style="color: darkmagenta;"><a href="./horario de atencion.html">HORARIO DE ATENCION</a></li>
-                    <li style="color: darkmagenta;">INSTAGRAM @MARCIAGO.ARTDEPORTIVOS</li>
-                    <li style="color: darkmagenta;">FACEBOOK MARCIAGOARTDEPORTIVOS</li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                    <li><a href="./horario de atencion.html">HORARIO DE ATENCION</a></li>
+                    <li><a href="https://www.instagram.com/marciagomez.79">INSTAGRAM MARCIAGO</a></li>
+                    <li><a href="https://www.facebook.com/marcia.go.3">FACEBOOK MARCIAGO</a></li>
                 </ul>
             </nav>
-            </div>
         </header>
         <br>
     <main class="main">
         <section>
-            <strong><u><i>¡Acompañando a tú evolución deportiva!</i></u></strong>
+            <strong><u><i>Venta de artículos deportivos</i></u></strong>
             <br>
             <br>
-            <strong><u><i>VENTADE ARTICULOS DEPORTIVOS</i></u></strong>
-            <br>
-            <br>
-                <ul>
-                <li style="color: darkmagenta;">Pesas rusas de 2 kilos</li>
+                <ul class="venta">
+                <li>Pesas rusas de 2 kilos  <button type="button" class="btn btn-primary btn-lg">Comprar</button></li>
                 <img src="./Imagenes/pesa-rusa-2-kg.jpg" width="200" height="200" alt="">
                 <br>
-                <li style="color: darkmagenta;">Pesas rusas de 3 kilos</li>
-                <br>
+                <li>Pesas rusas de 3 kilos</li>
                 <img src="./Imagenes/pesa-rusa-pvc-3-kg.jpg" width="200" height="200" alt="">
                 <br>
-                <li style="color: darkmagenta;">Pesas rusas de 4 kilos</li>
+                <li>Pesas rusas de 4 kilos</li>
                 <img src="./Imagenes/pesa-rusa-pvc-4-kg.jpg" width="200" height="200" aria-label="">
                 <br>
-                <li style="color: darkmagenta;">Pesas rusas de 5 kilos</li>
+                <li>Pesas rusas de 5 kilos</li>
                 <img src="./Imagenes/pesa-rusa-pvc-5-kg.jpg" width="200" height="200" alt="">
                 <br>
-                <li style="color: darkmagenta;">Pesas rusas de 10 kilos</li>
+                <li>Pesas rusas de 10 kilos</li>
                 <img src="./Imagenes/pesa-rusa-pvc-10-kg.jpg" width="200" height="200" alt="">
                 <br>
-                <li style="color: darkmagenta;">Tobilleras reforzadas con cierre de 1 kilo</li>
+                <li>Tobilleras reforzadas con cierre de 1 kilo</li>
                 <img src="./Imagenes/partobilleras1-kilo-reforzada-con-cierre.jpg" width="200" height="200" alt="">
                 <br>
-                <li style="color: darkmagenta;">Tobilleras reforzadas con cierre de 2 kilos</li>
+                <li>Tobilleras reforzadas con cierre de 2 kilos</li>
                 <img src="./Imagenes/partobilleras2-kilos-reforzada-con-cierre.jpg" width="200" height="200" alt="">
                 <br>
         </section>
-        <section>
-                <form method="" action="">
-                Nombre:<input type="text" name="Nombre">
-                Apellido:<input type="text" name="Apellido"><br>
-                <strong>Indique Sexo</strong><br>
-                Masculino:<input type="radio" name="sexo">
-                Femenino:<input type="radio" name="sexo">
-                Otro:<input type="radio" name="sexo"><br>
-                <strong>Seleccione su país:</strong><br>
-                <select id="pais" name="pais">
-                    <option value="arg">Argentina</option>
-                    <option value="bra">Brasil</option>
-                    <option value="chi">Chile</option>
-                    <option value="uru">Uruguay</option>
-                    <br>
-                <strong>Indique sus intereses a continuación:</strong><br>
-                <input type="checkbox" name="deporte">Deporte<br>
-                <input type="checkbox" name="Medio Ambiente">Medio Ambiente<br>
-                <input type="checkbox" name="Arte">Arte<br>
-                <input type="checkbox" name="Ciencia">Ciencia<br>
-                <strong>Dejar comentarios:</strong><br>
-                <textarea cols="30" rows="5"></textarea><br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Cancelar">
-            </form>
-        </section>
     </main>
-    <aside>
-        <p>Microemprendimiento desarrollado para la venta de árticulos deportivos ha utilizarse en la vida diaria</p>
+    <aside class="aside">
+        <h3>Saber Vivir</h3>
+        <p>Hacer actividad física regularmente puede ayudarte a mantener fuertes tus habilidades para pensar, aprender y tener buen juicio con el pasar de los años. También puede reducir tu riesgo de depresión y ansiedad, al igual que ayudarte a dormir mejor.</p>
+    <br>
+    <br>
+        <div class="formulario">
+        <form method="" action="">
+        <strong>PARA UNA MEJOR ATENCIÓN, POR FAVOR COMPLETAR EL SIGUIENTE FORMULARIO</strong>
+        <br>
+        Nombre<input type="text" name="Nombre">
+        Apellido<input type="text" name="Apellido"><br>
+        <strong>Indique Sexo</strong><br>
+        Masculino<input type="radio" name="sexo">
+        Femenino<input type="radio" name="sexo">
+        Otro<input type="radio" name="sexo"><br>
+        <label for="exampleDataList" class="form-label">Seleccione su país</label>
+        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+        <option value="Argentina">
+        <option value="Brasil">
+        <option value="Uruguay">
+        <option value="Paraguay">
+        <option value="Chile">
+        </datalist>
+        <br>
+        <strong>Indique sus intereses a continuación:</strong><br>
+        <input type="checkbox" name="deporte">Deporte<br>
+        <input type="checkbox" name="Medio Ambiente">Medio Ambiente<br>
+        <input type="checkbox" name="Arte">Arte<br>
+        <input type="checkbox" name="Ciencia">Ciencia<br>
+        <strong>Dejar comentarios:</strong><br>
+        <textarea cols="30" rows="5"></textarea><br>
+        <input class="btn btn-primary" type="submit" value="Enviar">
+        <input class="btn btn-primary" type="reset" value="Cancelar">
+        </form>
+    </div>
     </aside>
     <footer class="footer">
         <nav class="menu">
             <ul class="menu_elementos">
-                <li style="color: darkmagenta;"><a href="./contacto.html">CONTACTO</a></li>
-                <li style="color: darkmagenta;"><a href="./horario de atencion.html">HORARIO DE ATENCION</a></li>
-                <li style="color: darkmagenta;">INSTAGRAM @MARCIAGO.ARTDEPORTIVOS</li>
-                <li style="color: darkmagenta;">FACEBOOK MARCIAGOARTDEPORTIVOS</li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="./horario de atencion.html">HORARIO DE ATENCION</a></li>
+                <li><a href="https://www.instagram.com/marciagomez.79">INSTAGRAM MARCIAGO</a></li>
+                <li><a href="https://www.facebook.com/marcia.go.3">FACEBOOK MARCIAGO</a></li>
             </ul>
         </nav>
         <p>Gracias por visitarnos</p>
         <p>Marcia Go | Articulos deportivos | Todos los derechos reservados por Marcia Gómez 2023.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

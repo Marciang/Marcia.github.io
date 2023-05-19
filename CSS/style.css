@@ -27,13 +27,9 @@
     font-style: normal;
     margin-left: 30px;
     padding: 20px;
+    gap: 15px;
     
-}
-/*cada elemento de la lista de mi barra de navegacion index*/
-.menu_elementos li{
-    margin: 10px;
-    border: 20px;
-    color: darkmagenta;
+
 }
 /*mi logo e img de todo mi html*/
 img{
@@ -41,11 +37,8 @@ img{
     height: 200px;
     padding: 6px;
 }
-.venta{
-    color: darkmagenta;
-    list-style: none;
-    
-}
+
+
 /*body de mi index*/
 .body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -57,19 +50,15 @@ img{
 .main{
     float: left;
     background-color: rgb(250, 215, 241);
-    font-style: italic;
-    font-size: 15px;
-    width: 75%;
-}
-section{
-    margin-left: 20px;
+    font-size: 20px;
+    width: 80%;
 }
 .formulario{
-    margin-left: 10px;
     text-align: left;
     border-style: double;
-    padding: 10px;
-
+    padding: 5px;
+    background-color: beige;
+    width: 100%;
 }
 
 /*footer de mi index*/
@@ -105,10 +94,9 @@ section{
     color: black;
     background-color: beige;
     border-style: double;
-    border-color: grey;
-    text-align: justify;
-    width: 25%;
-    height: 220px;
-    padding: 10px;
+    text-align: left;
+    width: 20%;
+    height: 250px;
+    padding: 5px;
     
 }

@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/*
 @media (min-width: 769px){
     background-color: ;
 }
@@ -12,12 +13,14 @@
 @media (max-width: 320px){
     background-color: ;
 }
-.body{
+*/
+body{
     font-size: 15px;
     font-style: normal;
     list-style: none;
     border-left: 10px;
 }
+
 .header{
     width: 100%;
     padding: 10px;
@@ -26,10 +29,16 @@
     background-size: 100%;
     text-align: center;
 }
-img{
+
+.header img{
     width: 250px;
     height: 250px;
     padding: 5px;
+    text-align: center;
+}
+.card-mb-3.img{
+    width: 30%;
+    height: 30%;
 }
 .aside{
     font-size: 15px;
@@ -53,11 +62,11 @@ p{
     border-style: groove;
     padding: 10px;
 }
+
 .bodyhorario{
     border-style: solid;
     border-color: lightcoral;
     background-color: rgb(251, 226, 230);
-    font-style: italic;
     font-size: 20px;
     text-align: left;
     
@@ -66,10 +75,10 @@ p{
     border-style: solid;
     border-color: lightcoral;
     background-color: rgb(251, 226, 230);
-    font-style: italic;
     font-size: 20px;
     text-align: left;
 }
+
 .tabla{
-    ;
+    padding: 20px;
 }

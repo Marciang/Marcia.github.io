@@ -1,24 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-</head>
-<body>
-    <br>
-    <table border="2" class="bodycontacto">
-        <tr>
-            <td colspan="2"><strong><u>Atención al Cliente</u></strong></td>
-        </tr>
-        <tr>
-            <td>Teléfono:</td>
-            <td>3364 340555</td>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td>marciang.79@gmail.com</td>
-        </tr>
-    </table>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Contactos</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <!--<link rel="stylesheet" href="./Bootstrap/bootstrap-5/dist/css/bootstrap-grid.min.css">-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">"
+    </head>
+    <body class="contacto">
+        <header class="header">
+            <img src="./Imagenes/MG Logo.png">
+        </header>
+        <div>
+            <!--utilizacion de bootstrap barra de navegacion, botones y boton desplegable-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">INICIO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Sobrenosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./horario de atencion.html">Horarios</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Redes Sociales</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://www.instagram.com/marciagomez.79/">Instagram</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="https://www.facebook.com/marcia.go.3">Facebook</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        <br>
+        <div class="tabla">
+        <table border="2" class="bodycontacto">
+            <tr>
+                <td colspan="2"><strong><u>Atención al Cliente</u></strong></td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td>3364 340555</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>marciang.79@gmail.com</td>
+            </tr>
+        </table>
+        </div>
+        <footer>
+            <p>Gracias por visitarnos</p>
+            <p>Marcia Go | Articulos deportivos | Todos los derechos reservados por Marcia Gómez 2023.</p>
+        </footer>
+    </body>
 </html>

@@ -1,151 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>Emprendimiento Marcia Go</title>
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link rel="stylesheet" href="./Bootstrap/bootstrap-5/dist/css/bootstrap-grid.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+      <meta charset="utf-8">
+      <title>Emprendimiento Marcia Go</title>
+      <link rel="stylesheet" href="./CSS/style.css">
+      <link rel="stylesheet" href="./Bootstrap/bootstrap-5/dist/css/bootstrap-grid.min.css">
+      <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">"
+      <script src="./Trabajo final.js"></script>
     </head>
-    <br>
     <body class="body">
         <header class="header">
-            <nav class="menu">
-            <img src="./Imagenes/MG Logo.png" width="200px" height="200px">
-                <ul class="menu_elementos">
-                    <li><a href="./contacto.html">CONTACTO</a></li>
-                    <li><a href="./horario de atencion.html">HORARIO DE ATENCION</a></li>
-                    <li><a href="https://www.instagram.com/marciagomez.79">INSTAGRAM MARCIAGO</a></li>
-                    <li><a href="https://www.facebook.com/marcia.go.3">FACEBOOK MARCIAGO</a></li>
-                </ul>
-            </nav>
+          <img src="./Imagenes/MG Logo.png" width="200px" height="200px">
         </header>
-    <main class="main">
-            <strong><u><i>Venta de artículos deportivos</i></u></strong>
-            <br>
-            <br>
-            <div class="row row-cols-1 row-cols-md-2 g-8">
-              <div class="col">
-                <div class="card">
-                  <img src="./Imagenes/pesa-rusa-2-kg.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Pesas rusas de 2 kilos</h5>
-                    <p class="card-text">Material pvc.Disponibles en varios colores</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="./Imagenes/pesa-rusa-pvc-3-kg.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Pesas rusas 3 kilos</h5>
-                    <p class="card-text">Material pvc. Cómodos. Disponibles en varios colores</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>  
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="./Imagenes/pesa-rusa-pvc-4-kg.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Pesas rusas de 4 kilos</h5>
-                    <p class="card-text">Material pvc. Cómodos. Disponibles en varios colores</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="./Imagenes/pesa-rusa-pvc-5-kg.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Pesas rusas de 5 kilos</h5>
-                    <p class="card-text">Material pvc. Cómodos. Disponibles en varios colores</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="./Imagenes/pesa-rusa-pvc-10-kg.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Pesas rusas de 10 kilos</h5>
-                    <p class="card-text">Material pvc. Cómodos. Disponibles en varios colores</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="./Imagenes/partobilleras1-kilo-reforzada-con-cierre.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Par tobilleras de 1 kilo c/u.</h5>
-                      <p class="card-text">Material reforzado con cierre. Solo color rosa o rojo</p>
-                      <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img src="./Imagenes/partobilleras2-kilos-reforzada-con-cierre.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Par tobilleras de 2 kilos c/u.</h5>
-                    <p class="card-text">Material reforzado con cierre. Solo color rosa o rojo</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </div>
-                </div>
+        <!--utilizacion de bootstrap barra de navegacion, botones y boton desplegable-->
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">INICIO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Sobrenosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./horario de atencion.html">Horarios</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Redes Sociales</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://www.instagram.com/marciagomez.79/">Instagram</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://www.facebook.com/marcia.go.3">Facebook</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
               </div>
             </div>
-    </main>
-    <aside class="aside">
-        <h3>Saber Vivir</h3>
-        <p>Hacer actividad física regularmente puede ayudarte a mantener fuertes tus habilidades para pensar, aprender y tener buen juicio con el pasar de los años. También puede reducir tu riesgo de depresión y ansiedad, al igual que ayudarte a dormir mejor.</p>
-    <br>
-    <br>
+          </nav>
+    <main class="main">
+      <h5><strong><u>Venta de artículos deportivos</u></strong></h5>
+      <br>
+      <!--Utilización de bootstrap tajetas-->
+      <div class="row row-cols-1 row-cols-md-4 g-8">
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/pesa-rusa-2-kg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pesas rusas de 2 kilos</h6>
+              <p class="card-text">Material pvc.Disponibles en varios colores</p>
+              <!--utilizacion de js button y alert-->
+              <button>
+              <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+              <script>
+              function comprar() {
+                alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+              }
+              </script>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/pesa-rusa-pvc-3-kg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pesas rusas 3 kilos</h6>
+              <p class="card-text">Material pvc.Disponibles en varios colores</p>
+              <button>
+                <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+                <script>
+                function comprar() {
+                  alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+                }
+                </script>
+                </button> 
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/pesa-rusa-pvc-4-kg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pesas rusas de 4 kilos</h6>
+              <p class="card-text">Material pvc.Disponibles en varios colores</p>
+              <button>
+                <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+                <script>
+                function comprar() {
+                  alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+                }
+                </script>
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/pesa-rusa-pvc-5-kg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pesas rusas de 5 kilos</h6>
+              <p class="card-text">Material pvc.Disponibles en varios colores</p>
+              <button>
+                <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+                <script>
+                function comprar() {
+                  alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+                }
+                </script>
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/pesa-rusa-pvc-10-kg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Pesas rusas de 10 kilos</h6>
+              <p class="card-text">Material pvc.Disponibles en varios colores</p>
+              <button>
+                <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+                <script>
+                function comprar() {
+                  alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+                }
+                </script>
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/partobilleras1-kilo-reforzada-con-cierre.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Par tobilleras de 1 kilo c/u.</h6>
+              <p class="card-text">Material reforzado con cierre. Solo color rosa o rojo</p>
+              <button>
+                <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+                <script>
+                function comprar() {
+                  alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+                }
+                </script>
+                </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./Imagenes/partobilleras2-kilos-reforzada-con-cierre.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">Par tobilleras de 2 kilos c/u.</h6>
+              <p class="card-text">Material reforzado con cierre. Solo color rosa o rojo</p>
+              <button>
+                <input class="btn btn-primary" type="submit" value="Comprar" onclick="comprar()">
+                <script>
+                function comprar() {
+                  alert ("Si ud. vive a menos de 5km., el envio es gratis!");
+                }
+                </script>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+        <section>
+          <h5>Video de ejercicios con utilización de mancuernas</h5>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/XFdanMx8QT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <div class="card" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title"><strong><u>Saber vivir</u></strong></h5>
+            <p class="card-text">Hacer actividad física regularmente puede ayudarte a mantener fuertes tus habilidades para pensar, aprender y tener buen juicio con el pasar de los años.
+            También puede reducir tu riesgo de depresión y ansiedad, al igual que ayudarte a dormir mejor.</p>
+            <a href="https://www.youtube.com/watch?v=eayYAehUc3I" class="btn btn-primary">Video youtube</a>
+          </div>
+        </div>
+        <br>
+        <aside class="aside">
+          <!--Utilizacion de boostrap formulario-->
         <div class="formulario">
-        <form method="" action="">
-        <strong>PARA UNA MEJOR ATENCIÓN, POR FAVOR COMPLETAR EL SIGUIENTE FORMULARIO</strong>
-        <br>
-        Nombre<input type="text" name="Nombre">
-        Apellido<input type="text" name="Apellido">
-        <strong>Indique Sexo</strong><br>
-        Masculino<input type="radio" name="sexo">
-        Femenino<input type="radio" name="sexo">
-        Otro<input type="radio" name="sexo"><br>
-        <label for="exampleDataList" class="form-label">Seleccione su país</label>
-        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-        <datalist id="datalistOptions">
-        <option value="Argentina">
-        <option value="Brasil">
-        <option value="Uruguay">
-        <option value="Paraguay">
-        <option value="Chile">
-        </datalist>
-        <br>
-        <strong>Indique sus intereses a continuación:</strong><br>
-        <input type="checkbox" name="deporte">Deporte<br>
-        <input type="checkbox" name="Medio Ambiente">Medio Ambiente<br>
-        <input type="checkbox" name="Arte">Arte<br>
-        <input type="checkbox" name="Ciencia">Ciencia<br>
-        <strong>Dejar comentarios:</strong><br>
-        <textarea cols="25" rows="5"></textarea><br>
-        <input class="btn btn-primary" type="submit" value="Enviar">
-        <input class="btn btn-primary" type="reset" value="Cancelar">
-        </form>
-    </div>
-    </aside>
-    <footer class="footer">
-        <nav class="menu">
-            <ul class="menu_elementos">
-                <li><a href="./contacto.html">CONTACTO</a></li>
-                <li><a href="./horario de atencion.html">HORARIO DE ATENCION</a></li>
-                <li><a href="https://www.instagram.com/marciagomez.79">INSTAGRAM MARCIAGO</a></li>
-                <li><a href="https://www.facebook.com/marcia.go.3">FACEBOOK MARCIAGO</a></li>
-            </ul>
+          <form method="" action="">
+          <strong>PARA UNA MEJOR ATENCIÓN, POR FAVOR COMPLETAR EL SIGUIENTE FORMULARIO</strong>
+          <br>
+          Nombre<input type="text" name="Nombre">
+          Apellido<input type="text" name="Apellido">
+          <strong>Indique Sexo</strong><br>
+          Masculino<input type="radio" name="sexo">
+          Femenino<input type="radio" name="sexo">
+          Otro<input type="radio" name="sexo"><br>
+          <label for="exampleDataList" class="form-label">Seleccione su país</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+          <datalist id="datalistOptions">
+          <option value="Argentina">
+          <option value="Brasil">
+          <option value="Uruguay">
+          <option value="Paraguay">
+          <option value="Chile">
+          </datalist>
+          <br>
+          <strong>Indique sus intereses a continuación:</strong><br>
+          <input type="checkbox" name="deporte">Deporte<br>
+          <input type="checkbox" name="Medio Ambiente">Medio Ambiente<br>
+          <input type="checkbox" name="Arte">Arte<br>
+          <input type="checkbox" name="Ciencia">Ciencia<br>
+          <strong>Dejar comentarios:</strong><br>
+          <textarea cols="25" rows="5"></textarea><br>
+          <!--utilización de js onclick con un alerta-->
+          <input class="btn btn-primary" type="submit" value="Enviar" onclick="enviar()">
+          <script>
+            function enviar() {
+              alert ("Has enviado con exito tu formulario");
+            }
+          </script>
+          <input class="btn btn-primary" type="reset" value="Cancelar">
+          </form>
+          </div>
+        </aside>
+    </main>
+      <footer>
+            <!--utilizacion de bootstrap barra de navegacion botones y boton desplegable-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">INICIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./horario de atencion.html">Horarios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Redes Sociales</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.instagram.com/marciagomez.79/">Instagram</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://www.facebook.com/marcia.go.3">Facebook</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+            <script>
+              function INSTAGRAM() {
+                alert ("¿Estas seguro de salir de nuestra pagina web?");
+              }
+            </script>
         </nav>
         <p>Gracias por visitarnos</p>
         <p>Marcia Go | Articulos deportivos | Todos los derechos reservados por Marcia Gómez 2023.</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <br> 
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
 </html>

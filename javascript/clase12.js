@@ -3,9 +3,9 @@ function saludar (){
     
     if(nombre==""){
         alert ("¡Por favor ingrese su nombre!");
-           }
-           else{
-            alert("¡Bienvenido,"+ nombre +"!");
-           }
     }
-    console.log (saludar());
+    else{
+        alert("¡Bienvenido,"+ nombre +"!");
+    }
+}
+console.log (saludar());

@@ -36,7 +36,7 @@ body{
     padding: 5px;
     text-align: center;
 }
-.card-mb-3.img{
+.card-mb-3 img{
     width: 30%;
     height: 30%;
 }
@@ -82,3 +82,4 @@ p{
 .tabla{
     padding: 20px;
 }
+

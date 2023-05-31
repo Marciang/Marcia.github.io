@@ -8,8 +8,11 @@ else {
     alert("Eres menor de edad e ingresaras bajo tu responsabilidad.Bienvenido/a!");
 }
 
-let paginaprincipal
-function cerrar() {
-    paginaprincipal=window.close() 
+document.getElementById; "https://wa.me/543364340555".addEventListener("click",
+function (event){
+    var confirmacion = confirm("Vas a salir de la pagina web,¿Estas seguro?");
+    if (confirmacion == false){
+        event.preventdefault();
+    }
     
-}
+});
